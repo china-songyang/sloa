@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="sldb">
+    <wb-module deploy-name="sloa">
         <wb-resource deploy-path="/" source-path="/sldbWeb"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/test"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/auth"/>
@@ -58,7 +58,7 @@
         <dependent-module archiveName="commons-dbcp-1.2.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/depends/lib/commons-dbcp-1.2.2.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <property name="context-root" value="sldb"/>
-        <property name="java-output-path" value="/sldb/build/classes"/>
+        <property name="java-output-path" value="/sloa/build/classes"/>
+        <property name="context-root" value="sloa"/>
     </wb-module>
 </project-modules>
