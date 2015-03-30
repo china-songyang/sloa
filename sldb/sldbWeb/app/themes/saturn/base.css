@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size:12px;
+	color: #FFF;
+	font-family:"宋体",Arial, Helvetica, sans-serif;
+}
+body {
+	background:url(images/login_bg.gif);
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+	-moz-background-size:100% 100%;  
+    background-size:100%;
+}
+img {
+	border:0;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+	font-size:12px;
+	color:#09c856;
+}
+#container {
+	/* background: url(/images/login_bg.gif) no-repeat 0 0;
+	margin:auto auto; */
+}
+#content {
+	margin:0 auto;
+	width:679px;
+}
+
+.loginbg {
+	background:url(images/loginfrom_bg.png) no-repeat 0 0;
+	width:679px;
+	height:171px;
+	margin:0 auto;
+}
+.loginbg.two {
+	background:url(images/loginfrom_bgtwo.png) no-repeat 0 0;
+	width:679px;
+	height:171px;
+	margin:0 auto;
+}
+
+.loginbg.zw {
+	background:url(images/loginfrom_zw.png) no-repeat 0 0;
+	width:679px;
+	height:171px;
+	margin:0 auto;
+}
+
+#hanga {
+	height:200px;
+}
+.logo {
+	padding-left:300px;
+	padding-top:40px;
+}
+.logonr h1 {
+	color:#d1eafe;
+	font-size:36px;
+	font-family: "方正大黑简体",Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-align:center;
+	display:block;
+	height:100px;
+	line-height:100px;
+}
+.loginbga {
+	margin:30px auto auto 106px;
+	height:33px;
+	line-height:33px;
+	width:561px;
+}
+.user {
+	float:left;
+	width:185px;
+	height:33px;
+	margin-left:25px;
+	line-height:33px;
+	color:#d1cdcd;
+	margin-top:30px;
+}
+.user.two {
+	float:left;
+	width:185px;
+	height:33px;
+	margin-left:120px;
+	line-height:33px;
+	color:#d1cdcd;
+	margin-top:30px;
+}
+.pass {
+	float:left;
+	width:185px;
+	line-height:33px;
+	height:33px;
+	margin-left:50px;
+	color:#d1cdcd;
+	margin-top:30px;
+}
+.anniu {
+	float:left;
+	width:84px;
+	height:33px;
+	line-height:33px;
+	margin-left:25px;
+	margin-top:30px;
+	color:#d1cdcd;
+}
+.anniu.two {
+	float:left;
+	width:84px;
+	height:33px;
+	line-height:33px;
+	margin-left:84px;
+	margin-top:30px;
+	color:#d1cdcd;
+}
+.wjpass {
+	display:block;
+	width:150px;
+	height:33px;
+	line-height:33px;
+	padding-left:497px;
+	color:#84a1b9;
+}
+.wjpass a {
+	color:#84a1b9;
+}
+.wjpass a:hover {
+	color:#09c856;
+}
+.copy {
+	display:block;
+	margin-top:65px;
+	text-align:center;
+}
+.clear {
+	clear:both;
+}
