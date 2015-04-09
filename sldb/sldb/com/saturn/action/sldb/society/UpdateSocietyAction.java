@@ -35,8 +35,8 @@ public class UpdateSocietyAction implements IAction{
 		
 		for(int i=0; i<c_name.length; i++){
 			if(!"".equals(c_name[i])||!"".equals(c_sex[i])||!"".equals(c_identify[i])||!"".equals(c_relation[i])||!"".equals(c_marry[i])||!"".equals(c_ill[i])||!"".equals(c_disability[i])||!"".equals(c_labor[i])||!"".equals(c_inputType[i])){
-				Sub sub = new Sub(null,c_name[i],c_sex[i],c_identify[i],c_relation[i],c_marry[i],c_ill[i],c_disability[i],c_labor[i],c_inputType[i],null);
-				list.add(sub);
+				//Sub sub = new Sub(null,c_name[i],c_sex[i],c_identify[i],c_relation[i],c_marry[i],c_ill[i],c_disability[i],c_labor[i],c_inputType[i],null);
+				//list.add(sub);
 			}
 		}
 

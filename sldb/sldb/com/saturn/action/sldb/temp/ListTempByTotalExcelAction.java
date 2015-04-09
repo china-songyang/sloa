@@ -223,7 +223,7 @@ public class ListTempByTotalExcelAction implements IAction{
 			cellj.setCellStyle(cs);
 
 			cellj = rowi.createCell(4);
-			cellj.setCellValue(temp.getNodeType());
+			//cellj.setCellValue(temp.getNodeType());
 			cellj.setCellStyle(cs);
 
 			cellj = rowi.createCell(5);
