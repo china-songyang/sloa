@@ -1,7 +1,9 @@
 package com.saturn.sldb;
 
 import java.sql.Connection;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.json.JSONObject;
 
@@ -30,6 +32,7 @@ public class Sub {
 	private String diagnosisOrg; // 确诊机构
 
 	private static ORMapping<Sub> mapping = new ResultORMapping<Sub>();
+	private static Map<String, String> stateMap = new HashMap<String, String>();
 
 	public Sub() {
 

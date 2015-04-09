@@ -43,8 +43,10 @@ public class AddGeneralAction implements IAction {
 					|| !"".equals(c_healthCareType[i])
 					|| !"".equals(c_contact[i])) {
 				Sub sub = new Sub(null, c_name[i], c_sex[i], c_identify[i],
-						null, c_healthCareType[i], c_contact[i], null, null,
-						null, null, null, null, c_personRelation[i],
+						null, c_healthCareType[i], c_contact[i],
+						vo.getCreateTime(), vo.getCreater(),
+						vo.getCreaterName(), vo.getCreaterDepartment(),
+						vo.getState(), vo.getInputType(), c_personRelation[i],
 						vo.getName(), c_tempNumber[i], c_diseaseKind[i],
 						c_diagnosisOrg[i]);
 				list.add(sub);
@@ -70,6 +72,6 @@ public class AddGeneralAction implements IAction {
 
 	@Override
 	public String requestMapping() {
-		return "/app/sldb/lsybjzxt/add.action";
+		return "/app/sldb/general/add.action";
 	}
 }

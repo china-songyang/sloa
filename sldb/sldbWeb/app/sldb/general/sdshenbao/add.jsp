@@ -40,7 +40,7 @@ body {
 </style>
 <script> 
 function submit(){ 
-var causeStr = addForm.cause.value;
+/* var causeStr = addForm.cause.value;
 var causeLen = causeStr.length;
 if(addForm.name.value==""){ 
 alert("申请人姓名不能为空"); 
@@ -74,13 +74,14 @@ alert("申报理由不能为空");
 alert("申报理由不能少于30个字符"); 
 }else{
 	$('#addForm').submit();
-}
+} */
+	$('#addForm').submit();
 } 
 </script>
 
 <%
 	String date = DateUtils.getSystemDate();
-	User user1 = (User) request.getSession().getAttribute("authUser");// TODO Auto-generated method stub
+	User user1 = (User) request.getSession().getAttribute("authUser");
 	String number = user1.getNumber();
 	int random = (int) (Math.random() * 9000 + 1000);
 	String numberNO = date + "-" + number + "-"

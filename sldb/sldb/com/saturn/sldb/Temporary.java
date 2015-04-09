@@ -43,7 +43,6 @@ public class Temporary {
 	private String diseaseKind; // 病种
 	private String healthCareType; // 医保类型
 	private String peopleType; // 对象类别
-	private String sysId; // 系统ID
 
 	private String beginTime;
 	private String endTime;
@@ -530,14 +529,6 @@ public class Temporary {
 
 	public void setPeopleType(String peopleType) {
 		this.peopleType = peopleType;
-	}
-
-	public String getSysId() {
-		return sysId;
-	}
-
-	public void setSysId(String sysId) {
-		this.sysId = sysId;
 	}
 
 	public static ORMapping<Temporary> getMapping() {
